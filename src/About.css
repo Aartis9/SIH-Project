@@ -1,0 +1,19 @@
+.x{
+    display: block;
+    font: 38px poppins;
+    padding: 24px 0px 0px 0px;
+    margin-left: 6rem;
+    color:black;
+}
+.App{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+.x,.App{
+    background-color: #d7d7e4;
+    /* color:black; */
+}
+.s{
+    /* font-weight: 900 !important; */
+    text-shadow: 2px 2px #b3aaaa;
+}
