@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 html{
     font-family: 'Poppins' ;
 }
+
 .c{
     color: aliceblue;
     text-decoration: none;
@@ -10,9 +11,10 @@ html{
 .c:hover{
     color:rgb(192, 60, 82) ;
 }
-.o,.App{
+.o{
     background-color: #02174b;
     color:rgb(192, 60, 82);
+    margin-left: 5vw;
 }
 .App{
     min-height: 100vh;
@@ -22,10 +24,11 @@ body{
     max-width: 100vw;
     overflow-x: hidden;
 }
-input,textarea{
+
+.po11{
     background-color: #485a87f6;
     opacity: 0.5;
-    margin-bottom: 2vh;
+    margin-bottom: 2vh !important;
 }
 input[type="submit"]{
     opacity: 1 !important;
@@ -37,6 +40,9 @@ input[type="submit"]{
     justify-content: start;
     gap: 15vw;
     align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;background-color: #02174b;
+
 }
 .z{
     color:aliceblue;
@@ -46,13 +52,14 @@ input[type="submit"]{
    
 }
 ::placeholder{
-    color:white ;
+    color:rgb(160, 151, 151) ;
     opacity: 1 !important;
     font-weight: 300;
 }
 .r{
-    font-weight: 900 !important;
+    font-weight: 700 !important;
     text-shadow: 2px 2px #330404;
+    color:rgb(192, 60, 82);
 }
 input[type="submit"]:hover{
    background-color: #53052c !important;

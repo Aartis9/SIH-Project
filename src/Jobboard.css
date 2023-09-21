@@ -1,0 +1,21 @@
+.job111{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18vh;
+}
+.p111{
+    margin: 5vw;
+    text-align: center;
+}
+.bt111{
+    text-align: center;
+}
+.l11{
+    border-width:2px !important;
+    border-color: black !important;
+}
+@media(max-width:750px){
+    .job111{
+        font-size: 7vh !important;
+    }
+}

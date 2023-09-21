@@ -37,11 +37,11 @@ const Contact = () => {
           </div>
     <form ref={form} onSubmit={sendEmail}>
       {/* <label>Name</label> */}
-      <input type="text" placeholder="Name" name="to_name" />
+      <input className='po11' type="text" placeholder="Name" name="to_name" />
       {/* <label>Email</label> */}
-      <input type="email" placeholder="Enter email" name="from_name" />
+      <input className='po11' type="email" placeholder="Enter email" name="from_name" />
       {/* <label>Message</label> */}
-      <textarea name="message" placeholder="Enter message"/>
+      <textarea  className='po11' name="message" placeholder="Enter message"/>
       <input type="submit"  value="Send" />
     </form>
     </StyledContactForm>
