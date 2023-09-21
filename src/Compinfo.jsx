@@ -30,8 +30,7 @@ const Compinfo = () => {
            <div className="as15">
             <Button variant="light" className='l11'>Cancel</Button>{' '} 
            <Button variant="warning">Save</Button> &nbsp;&nbsp;
-    
- </div>
+    </div>
  </div>
     </div>
   )

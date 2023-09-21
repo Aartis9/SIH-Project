@@ -4,13 +4,6 @@ import Button from 'react-bootstrap/Button';
 import Nav from 'react-bootstrap/Nav';
 
 const Jobboard = () => {
-  function host(){
-    console.log(1)
-      // window.location.href="http://localhost:5173/Postjob"
-  }
-  function ghost(){
-    window.open("./Postjob")
-  }
   return (
     <div>
         <div className="board111">  
@@ -18,10 +11,12 @@ const Jobboard = () => {
     
     <p className="p111"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat laudantium, ullam eligendi harum obcaecati porro ea atque. Saepe sed reiciendis corrupti odit adipisci perferendis, dolorem similique cum. Facere, impedit fugit. </p>
     </div>
+    
     <div className="bt111">
- <Button  variant="dark">Post a job</Button> &nbsp;&nbsp;
+ <Button  variant="warning">Post a job</Button> &nbsp;&nbsp;
     <Button  variant="light" className='l11'>All jobs</Button>{' '} 
  </div>
+
     </div>
   )
 }

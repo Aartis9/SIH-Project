@@ -1,11 +1,11 @@
 import React from 'react'
-import Jobboard from './Jobboard'
+import Alljob from './Alljob'
 import Postjob from './Postjob'
 
 const Homepage = () => {
   return (
     <div>
-        <Jobboard/>
+        <Alljob/>
         {/* Homepage */}
         {/* <br/> Go to /about  for about page.
         <br/> Go to /contact  for contact page. */}

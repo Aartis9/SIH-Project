@@ -13,14 +13,14 @@ const Navbare = () => {
 
           <Nav className="me-auto Flor111">
             <div className='flor112'>
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/Alljob">Home</Nav.Link>
+            {/* <Nav.Link href="/about">About</Nav.Link> */}
             <Nav.Link href="/contact">Contact</Nav.Link>
             <Nav.Link href="/Postjob">Postjob</Nav.Link>
-            <Nav.Link href="/Compinfo">Company-Information</Nav.Link>
-            <Nav.Link href="/Alljob">Alljobs</Nav.Link>
+            {/* <Nav.Link href="/Compinfo">Company-Information</Nav.Link> */}
+           
             </div>
-            <Nav.Link href="/"><h5>Hello Amiii </h5></Nav.Link>
+            <Nav.Link href="/Compinfo"><h5>Information </h5></Nav.Link>
           </Nav>
         </Container>
 

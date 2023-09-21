@@ -31,12 +31,16 @@ const Postjob = () => {
 
                    <div className="j12">
                    <p>Job location</p>
-                   <div className="cd33">    <input className="loc12" 
+
+                  <div className="cd33">    
+                  <input className="loc12" 
                    placeholder=" e.g.'New York City' or 'San Francisco' "/>  </div>
                    <p className="pt12">If left blank, location will be set to 'Remote' </p>
                     </div> 
+<div className="work7">
+          <div className="work9">
       <div className="w11">
-        <p> Workplace type <span style={{color:"red"}}>*</span></p>
+        <p> Workplace -type <span style={{color:"red"}}>*</span></p>
       </div>
       <DropdownButton
         id="dropdown-button-dark-example2"
@@ -51,9 +55,10 @@ const Postjob = () => {
         <Dropdown.Item href="#/action-3">Hybrid</Dropdown.Item>
       </DropdownButton>
       <br/>
-
+      </div>
+      <div className="work8">
       <div className="w11">
-        <p> Employment type <span style={{color:"red"}}>*</span></p></div>
+        <p> Employment- type <span style={{color:"red"}}>*</span></p></div>
         <DropdownButton
         id="dropdown-button-dark-example2"
         variant="secondary"
@@ -63,7 +68,9 @@ const Postjob = () => {
         <Dropdown.Item href="#/action-1">Full-time employe</Dropdown.Item>
         <Dropdown.Item href="#/action-2">Freelance/Contract hire</Dropdown.Item>
       </DropdownButton> <br/>
-       
+      </div>
+      </div>
+     
        <div className="l11">
           <p className="j22">Where can people apply?  <span style={{color:"red"}}>*</span></p>
           <div className="cd33"> <input className="loc112" 
@@ -87,6 +94,8 @@ const Postjob = () => {
 
       <div className="w11">
         <p> Assistive Device or Solution used or required</p></div>
+
+
         <DropdownButton
         id="dropdown-button-dark-example2"
         variant="secondary"
@@ -107,13 +116,14 @@ const Postjob = () => {
             <div className="rf11">
             <div className="R11">
             <h6>Minimum</h6>
-            <input type="text" Rs /> 
-           
+           <div className="o2"> <input type="text" Rs /> 
+           </div> 
             </div>
             
             <div className="R12">
             <h6>Maximum</h6>
-            <input type="text" Rs /> 
+            <div className="o2">
+            <input type="text" Rs /> </div>
             </div>
             <div className="R13">
             <h6>Rate</h6>

@@ -12,6 +12,9 @@
 .full111{
     background-image: linear-gradient(to right,pink, rgb(155, 84, 155));
 }
+.o2{
+    border-radius: 15px;
+}
 .outlast1{
     margin-top: 7vh;
     width:100vw;
@@ -24,7 +27,9 @@
     padding:2vh;
 }
 .bani11{
-    width:72vw;
+    width: 76.8vw;
+    padding: 2vh;
+    border-radius: 15px; 
     /* display: flex; */
     /* justify-content: space-between; */
 }
@@ -35,21 +40,36 @@
 }
 .b12{
     width:80vw;
+    border-radius: 15px; 
+   
     /* padding-right:74vw; */
 }
 .j12{
     padding-top:4vh;
     padding-left:4vh;
+   
 }
 .loc12{
     width: 80vw;
     padding: 2vh;
-    font-size: small;  
+    font-size: small;
+    border-radius: 15px;  
 }
 .w11{
     padding-top:4vh;
     padding-left:4vh;
 }
+.work7{
+    display: flex;
+    justify-content:space-between;
+  
+}
+.w11{
+    padding-right: 100vh;
+}
+/* .work9{
+    padding-right: 114vh;
+} */
 .btn-check+.btn, .btn-secondary, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
     color: #212529 !important;
     background-color: #fff !important;
@@ -67,12 +87,13 @@
 .loc112{
     width: 80vw;
     padding: 2vh;
-   
+    border-radius: 15px; 
     font-size: small;  
 }
 .pt112{
     margin-left: 4vh;
     font-size: 11px ;
+    
 }
 .rf11{
     display: flex;
